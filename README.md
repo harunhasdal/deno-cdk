@@ -11,6 +11,6 @@ Template to get started quickly using [Deno 2](https://deno.com/) in an [AWS CDK
 
 Navigate to your projects directory and create a new project by executing:
 
-`copier copy https://github.com/harunhasdal/deno-cdk .`
+`copier copy https://github.com/harunhasdal/deno-cdk.git .`
 
 This will create a folder with the project name you provided in the questions. Folder name will be lowercase version of your project name.
