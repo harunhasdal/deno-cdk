@@ -2,7 +2,7 @@
 
 Template to get started quickly using [Deno 2](https://deno.com/) in an [AWS CDK](https://aws.amazon.com/cdk/) project.
 
-## Prerequisites
+## Prerequisites
 
 - [copier](https://github.com/copier-org/copier)
 - [AWS CLI](https://aws.amazon.com/cli/) with a named credentials profile defined in `.aws/config` or `.aws/credentials`.
