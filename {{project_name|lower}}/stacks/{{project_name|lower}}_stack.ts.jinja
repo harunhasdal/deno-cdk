@@ -1,0 +1,19 @@
+import { Duration, Stack, StackProps, CfnOutput } from "npm:aws-cdk-lib";
+import { Construct } from "npm:constructs";
+// import { Queue } from "npm:aws-cdk-lib/aws-sqs";
+
+export class {{ project_name }}Stack extends Stack {
+  constructor(scope: Construct, id: string, props?: StackProps) {
+    super(scope, id, props);
+
+    // Create your resources below
+    
+    // const queue = new Queue(this, "DenoTaskQueue", {
+    //   visibilityTimeout: Duration.seconds(300),
+    // });
+
+    // new CfnOutput(this, "QueueUrl", {
+    //   value: queue.queueUrl,
+    // })
+  }
+}

@@ -1,0 +1,6 @@
+import { App } from "npm:aws-cdk-lib";
+import { {{ project_name }}Stack } from "./stacks/{{project_name|lower}}_stack.ts";
+
+const app = new App();
+
+new {{ project_name }}Stack(app, "{{ project_name }}Stack", {});

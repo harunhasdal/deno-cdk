@@ -1,0 +1,13 @@
+{
+    "tasks": {
+      "synth": "deno run -A npm:aws-cdk@^2 synthesize",
+      "test": "deno test --allow-all --coverage",
+      "coverage": "deno coverage",
+      "deploy": "deno run -A npm:aws-cdk@^2 --profile {{aws_profile_name}} deploy --outputs-file env_outputs.json"
+    },
+    "imports": {
+      "@std/assert": "jsr:@std/assert@1",
+      "aws-cdk-lib": "npm:aws-cdk-lib@^2",
+      "constructs": "npm:constructs@^10"
+    }
+  }

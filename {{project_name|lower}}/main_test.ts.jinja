@@ -1,0 +1,13 @@
+import { App } from "npm:aws-cdk-lib";
+import { Template } from "npm:aws-cdk-lib/assertions";
+import { {{ project_name }}Stack } from "./stacks/{{project_name|lower}}_stack.ts";
+
+Deno.test(function testQueueCreated() {
+  const app = new App();
+  const stack = new {{ project_name }}Stack(app, "MyTestStack");
+  const template = Template.fromStack(stack);
+
+  // template.hasResourceProperties("AWS::SQS::Queue", {
+  //   VisibilityTimeout: 300,
+  // });
+});

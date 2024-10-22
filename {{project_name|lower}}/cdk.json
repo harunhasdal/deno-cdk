@@ -1,0 +1,4 @@
+{
+    "app": "deno -A main.ts"
+}
+  
